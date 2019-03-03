@@ -9,7 +9,6 @@ all_letters, n_letters, category_lines, all_categories = prepareData.PrepareData
 n_categories = len(all_categories)
 
 
-
 # turning data into 2D tensors to make any use of them
 def letterToIndex(letter):
     """
